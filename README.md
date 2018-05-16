@@ -361,9 +361,9 @@ sudo apt install graphouse
 
 Let's configure Graphouse to store metrics in ClickHouse
 
-Edit properties in graphouse config `/etc/graphouse/graphouse.properties`
+Edit properties in graphouse config file `/etc/graphouse/graphouse.properties`
 
-Setup ClickHouse access. Make sure `graphouse.clickhouse.host` is correct. **WARNING** `//` comments are erroneous ini properties file!
+Setup ClickHouse access. Make sure `graphouse.clickhouse.host` is correct. **WARNING** `//` comments are erroneous in properties file!
 ```ini
 graphouse.clickhouse.host=localhost
 graphouse.clickhouse.hosts=${graphouse.clickhouse.host}
