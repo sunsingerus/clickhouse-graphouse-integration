@@ -106,7 +106,7 @@ ClickHouse installation is explained in several sources, such as:
 Let's configure ClickHouse to be a data storage for Graphouse.
 
 Create rollup config file `/etc/clickhouse-server/conf.d/graphite_rollup.xml`.
-Settings for thinning data for Graphite.
+This file contains settings for thinning data for Graphite.
 
 ```bash
 sudo mkdir -p /etc/clickhouse-server/conf.d
