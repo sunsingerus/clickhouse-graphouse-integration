@@ -256,7 +256,9 @@ sudo mkdir -p /etc/clickhouse-server/conf.d
 
 ## Create ClickHouse tables
 
-Restart ClickHouse, run `clickhouse-client` and create tables. SQL file is available [here](conf/create_tables.sql?raw=true)
+In order to store incoming metrics, we need to create tables in ClickHouse.
+iSo, restart ClickHouse, run `clickhouse-client` and create tables to store incoming metrics. 
+SQL file is available [here](conf/create_tables.sql?raw=true)
 
 ```bash
 sudo /etc/init.d/clickhouse-server restart
